@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/bbrick?serverTimezone=UTC&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: 1234
-    dirver-class-name: com.mysql.cj.jdbc.Driver
+    dirver-class-name: com.mysql.jdbc.Driver
     hikari:
       connectionTimeout: 30000
       maximumPoolSize: 5

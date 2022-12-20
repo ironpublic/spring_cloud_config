@@ -4,10 +4,3 @@ spring:
     username: root
     password: 1234
     dirver-class-name: com.mysql.jdbc.Driver
-    hikari:
-      connectionTimeout: 30000
-      maximumPoolSize: 5
-      maxLifetime: 1800000
-      poolName: HikariCP
-      readOnly: false
-      connectionTestQuery: SELECT 1
